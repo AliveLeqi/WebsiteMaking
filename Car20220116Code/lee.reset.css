@@ -1,0 +1,96 @@
+/* @version:1.0 | @author:haolei <haolei@ec.com.cn> | @date:2018-02-27 */
+@charset "utf-8";
+a,input[type=button],label {
+    cursor: pointer;
+}
+
+a,blockquote,body,dd,div,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,hr,html,img,input,lable,li,ol,option,p,pre,select,span,strong,table,tbody,td,textarea,tfoot,th,thead,tr,ul {
+    margin: 0;
+    padding: 0;
+}
+
+article,aside,footer,header,hgroup,nav,section,time {
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    table-layout: fixed;
+}
+
+input,label,select,textarea {
+    vertical-align: middle;
+    font-size: 12px;
+    outline: 0;
+}
+
+ol,ul {
+    list-style: none;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a.z-crt{
+    text-decoration: underline;
+    color: #da2810;
+}
+a:hover {
+     color: #da2810;
+}
+
+a:focus {
+    outline: 0;
+}
+
+img {
+    border: none;
+    vertical-align: top;
+}
+
+em,i {
+    font-style: normal;
+}
+
+input[type=password],input[type=text],select,textarea {
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    outline: 0;
+    font-family: "Helvetica Neue",Helvetica,tahoma,Arial,"Noto Sans CJK SC","PingFang SC","\5FAE\8F6F\96C5\9ED1","Microsoft Yahei","WenQuanYi Micro Hei",sans-serif;
+}
+
+input[type=password]:focus,input[type=text]:focus,select:focus,textarea:focus {
+    box-shadow: 0 0 5px #52a8ec;
+    border: 1px solid #52a8ec;
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 1000px #fff inset;
+}
+
+.placeholder {
+    color: #999;
+}
+
+
+/*IE��a:hover ������˸*/
+html{overflow:-moz-scrollbars-vertical;zoom:expression(function(ele){ele.style.zoom = "1";document.execCommand("BackgroundImageCache",false,true)}(this))}
+.clearfix:after {
+ content:".";display:block;height:0;clear:both;visibility:hidden;
+}
+.clearfix{zoom:1;}
+html,body{width:100%;height:100%;}
+html{min-width:1200px;}
+/* body{background: url(../img/bg-body-top.gif) repeat-x #f7f7f7; font: 14px/1.5 '\5B8B\4F53'; color:#333;} */
+body{background:#ffffff url(../img/bg-body-top.gif) repeat-x;font:14px/1.5 "Helvetica Neue",Helvetica,tahoma,Arial,"Noto Sans CJK SC","PingFang SC","\5FAE\8F6F\96C5\9ED1","Microsoft Yahei","WenQuanYi Micro Hei",sans-serif;color:#333;}
